@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "../styles/globals.css";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [pairs, setPairs] = useState([]);
