@@ -1,54 +1,95 @@
 *{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-  background:#0d1117;
-  color:white;
-  font-family:sans-serif;
+background:#09090b;
+color:white;
+font-family:Arial,sans-serif;
 }
 
-.container{
-  max-width:1200px;
-  margin:auto;
-  padding:20px;
+.app{
+max-width:500px;
+margin:auto;
+padding:15px;
 }
 
 .header{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  margin-bottom:20px;
+font-size:28px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+.search{
+width:100%;
+padding:14px;
+background:#18181b;
+border:none;
+border-radius:14px;
+color:white;
+margin-bottom:15px;
+}
+
+.chains{
+display:flex;
+gap:10px;
+margin-bottom:15px;
+}
+
+.chain{
+flex:1;
+padding:10px;
+background:#18181b;
+border:none;
+color:white;
+border-radius:12px;
+}
+
+.active{
+background:#22c55e;
+}
+
+.tabs{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin-bottom:15px;
+}
+
+.tabs div{
+background:#18181b;
+padding:12px;
+border-radius:12px;
+text-align:center;
 }
 
 .card{
-  background:#161b22;
-  border:1px solid #30363d;
-  border-radius:12px;
-  padding:16px;
+background:#18181b;
+border-radius:18px;
+padding:16px;
+margin-bottom:12px;
+border:1px solid #27272a;
 }
 
-.grid{
-  display:grid;
-  gap:15px;
+.top{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:10px;
 }
 
 .score{
-  font-size:24px;
-  font-weight:bold;
-  margin:10px 0;
+background:#22c55e;
+padding:8px 12px;
+border-radius:12px;
+font-weight:bold;
 }
 
-.good{
-  color:#00e676;
-}
-
-.medium{
-  color:#ffd600;
-}
-
-.bad{
-  color:#ff5252;
+.stats{
+display:flex;
+justify-content:space-between;
+margin-top:8px;
+color:#a1a1aa;
 }
